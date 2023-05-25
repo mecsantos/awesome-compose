@@ -3,6 +3,7 @@
 FROM node:lts-buster-slim AS development
 
 ENV NEW_RELIC_NO_CONFIG_FILE=true
+ENV NEW_RELIC_APP_NAME=todo
 
 # Create app directory
 WORKDIR /usr/src/app
