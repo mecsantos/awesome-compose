@@ -2,6 +2,8 @@
 
 FROM node:lts-buster-slim AS development
 
+ENV NEW_RELIC_NO_CONFIG_FILE=true
+
 # Create app directory
 WORKDIR /usr/src/app
 
