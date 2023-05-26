@@ -4,10 +4,10 @@
   "description": "docker starter with node js and mongodb services",
   "main": "index.js",
   "scripts": {
-    "start": "node -r newrelic server.js",
+    "start": "node server.js",
     "format": "prettier --write {**/,}*.js",
     "lint": "prettier --check {**/,}*.js",
-    "dev": "node -r newrelic server.js"
+    "dev": "node server.js"
   },
   "author": "Syed Afzal",
   "license": "ISC",
